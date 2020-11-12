@@ -159,6 +159,8 @@ class CharHasher {
     }
 }
 
+exports = {charHash, ordHash, charLoadFactorOptimizer, CharHasher};
+
 // testing
 console.log('class testing');
 ch = new CharHasher(primes, ['richard', 'troy', 'brendan', 'hello', 'sally']);
